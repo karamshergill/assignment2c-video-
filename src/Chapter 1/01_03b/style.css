@@ -4,7 +4,7 @@ body {
 
 img {
   display: block;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -19,6 +19,7 @@ img {
   border: 5px solid hotpink;
   height: 40vh;
   width: 75vw;
+  overflow: hidden;
 }
 
 .image {}
