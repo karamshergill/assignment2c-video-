@@ -19,6 +19,7 @@ img {
   border: 3px solid hotpink;
   border-radius: 1rem;
   width: 40vw;
+  overflow: hidden;
 }
 
 .image {
