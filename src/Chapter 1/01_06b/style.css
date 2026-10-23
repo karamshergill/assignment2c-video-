@@ -9,20 +9,20 @@ img {
 }
 
 .container {
+  align-items: center;
   display: flex;
+  height: 100vh;
   justify-content: center;
-  margin: 2rem;
 }
 
 .content {
-  display: grid;
-  grid-template-columns: repeat(2, 20rem);
-  grid-template-rows: repeat(2, 20rem);
-  gap: 1rem;
+  border: 5px solid hotpink;
+  height: 90vh;
+  width: 50vw;
 }
 
-.content img {
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
+.image {
+  height: inherit;
+  width: inherit;
+  object-fit: fill;
 }
