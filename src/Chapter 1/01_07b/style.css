@@ -19,8 +19,9 @@ img {
 }
 
 .content img {
-  width: 25%;
   object-fit: cover;
 }
 
-figure {}
+figure {
+  margin: 0;
+}
