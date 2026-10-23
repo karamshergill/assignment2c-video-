@@ -14,3 +14,8 @@ body {
   height: 70vh;
   width: 70vw;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
