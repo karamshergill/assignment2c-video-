@@ -24,4 +24,5 @@ img {
 .image {
   height: inherit;
   width: inherit;
+  object-fit: contain;
 }
