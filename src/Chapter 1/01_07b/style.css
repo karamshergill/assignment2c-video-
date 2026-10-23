@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
 }
@@ -5,6 +6,7 @@ body {
 img {
   display: block;
   height: auto;
+  width: 100%;
 }
 
 .container {
@@ -17,6 +19,9 @@ img {
   display: flex;
 }
 
-.content img {}
+.content img {
+  width: 25%;
+}
 
 figure {}
+
