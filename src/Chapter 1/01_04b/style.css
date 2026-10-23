@@ -19,7 +19,7 @@ img {
   align-items: center;
   background-image: url("../../assets/images/beach-sunset.jpg");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top right;
   border: 1px solid hsl(0, 0%, 75%);
   display: flex;
   height: 60vh;
