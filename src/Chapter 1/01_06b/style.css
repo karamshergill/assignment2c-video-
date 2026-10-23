@@ -19,3 +19,7 @@ img {
   grid-template-columns: repeat(2, 20rem);
   gap: 1rem;
 }
+
+.content img {
+  height: 100%;
+}
