@@ -4,10 +4,9 @@ body {
 
 img {
   display: block;
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  object-fit: cover;
+  height: auto;
+  width: 100%;
+  border-radius: 50% 0;
 }
 
 .container {
