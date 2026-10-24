@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
 }
@@ -38,6 +37,4 @@ img {
   width: 100%;
 }
 
-.content img {
-  clip-path: url("heart.svg#heart");
-}
+.content img {}
