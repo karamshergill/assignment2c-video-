@@ -16,6 +16,25 @@
         loading="lazy" />
     </article>
   </main>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true">
+    <defs>
+      <filter id="red-sunset-with-purple" color-interpolation-filters="sRGB">
+
+        <feColorMatrix in="SourceGraphic" type="saturate" values="0" result="gray" />
+
+        <feComponentTransfer in="gray" result="duotone">
+          <feFuncR type="table" tableValues="0.25 1" />
+          <feFuncG type="table" tableValues="0.05 0.35" />
+          <feFuncB type="table" tableValues="0.45 0.25" />
+        </feComponentTransfer>
+
+        <feBlend in="SourceGraphic" in2="duotone" mode="multiply" />
+
+      </filter>
+    </defs>
+  </svg>
+
 </body>
 
 </html>

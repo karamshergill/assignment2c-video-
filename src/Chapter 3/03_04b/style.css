@@ -20,4 +20,6 @@ img {
   width: 50vw;
 }
 
-.content img {}
+.content img {
+  filter: url("#red-sunset-with-purple");
+}
