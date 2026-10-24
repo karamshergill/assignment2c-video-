@@ -17,6 +17,8 @@ img {
 
 .content {
   background-color: red;
+  background-image: url("../../assets/images/red-berries.jpg");
+  background-size: cover;
   width: 50vw;
 }
 
