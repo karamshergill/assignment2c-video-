@@ -30,4 +30,5 @@ img {
   font-size: 4rem;
   padding: 2rem;
   text-align: center;
+  background-clip: text;
 }
