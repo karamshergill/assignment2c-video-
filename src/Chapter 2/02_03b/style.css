@@ -20,4 +20,5 @@ img {
 }
 
 .content img {
+  clip-path: circle();
 }
