@@ -20,5 +20,5 @@ img {
 }
 
 .content img {
-  clip-path: circle(25% at 0 100%);
+  clip-path: ellipse();
 }
