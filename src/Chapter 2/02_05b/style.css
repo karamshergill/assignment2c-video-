@@ -21,5 +21,5 @@ img {
 }
 
 .content img {
-  clip-path: inset(10%);
+  clip-path: inset(10% 30%);
 }
