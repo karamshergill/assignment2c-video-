@@ -20,5 +20,10 @@ img {
 }
 
 .content img {
-  clip-path: polygon(25% 50%, 30% 60%, 40% 30%);
+  clip-path: polygon(25% 0,
+      75% 0,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0 50%);
 }
