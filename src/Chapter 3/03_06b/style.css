@@ -23,5 +23,5 @@ img {
 }
 
 .content img {
-  mix-blend-mode: lighten;
+  mix-blend-mode: soft-light;
 }
