@@ -20,4 +20,6 @@ img {
   width: 60vw;
 }
 
-.content img {}
+.content img {
+  clip-path: inset(10%);
+}
