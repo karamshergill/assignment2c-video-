@@ -19,4 +19,6 @@ img {
   width: 60vw;
 }
 
-.content img {}
+.content img {
+  clip-path: polygon(25% 50%);
+}
