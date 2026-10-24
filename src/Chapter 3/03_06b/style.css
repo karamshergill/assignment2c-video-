@@ -21,5 +21,5 @@ img {
 }
 
 .content img {
-  mix-blend-mode: difference;
+  mix-blend-mode: exclusion;
 }
